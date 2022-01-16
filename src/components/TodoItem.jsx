@@ -32,7 +32,7 @@ const TodoItem = (props) => {
               dispatch(
                 updateTodo({
                   ...todo,
-                  name: "name",
+                  name: name,
                 })
               );
               if (editable) {
